@@ -1,4 +1,4 @@
-import fetchData from '../src/js/http';
+import fetchData from '../js/http';
 
 export function getLevel(userId) {
   const response = fetchData(`https://server/user/${userId}`);
